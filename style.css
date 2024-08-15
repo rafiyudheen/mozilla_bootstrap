@@ -7,3 +7,29 @@
 .container{
     margin: 0px,30px;
 }
+.menuItems-dropDown
+{
+    display: none;
+    position: absolute;
+    /* padding: 20px; */
+    /* background-color: red;
+    height: 100px;
+    width: 200px; */
+
+}
+.nav-Menu-Items:hover .menuItems-dropDown  {
+ 
+    display: block;
+    
+    
+}
+.inner-div-menuItems-dropDown
+{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0 grey;
+    border-radius: 5px;
+    border-color: black;
+}
