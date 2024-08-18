@@ -76,3 +76,8 @@
     height: 100%;
 
 }
+#section-4{
+    background: rgb(218,241,246);
+    background: linear-gradient(45deg, rgba(218,241,246,1) 5%, rgba(231,231,242,1) 39%, rgba(218,241,246,1) 97%);
+ 
+}
