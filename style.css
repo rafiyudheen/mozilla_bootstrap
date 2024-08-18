@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: sans-serif; 
 }
-
+body{
+    z-index: 0;
+}
 .container{
     margin: 0px,30px;
 }
@@ -80,4 +82,122 @@
     background: rgb(218,241,246);
     background: linear-gradient(45deg, rgba(218,241,246,1) 5%, rgba(231,231,242,1) 39%, rgba(218,241,246,1) 97%);
  
+}
+.donation-banner{
+    background-color: #e7dfff;
+    /* border: 1px solid #e7dfff;     */
+
+}
+
+#section-6{
+    background-color: #e7dfff;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+.dinosar-img{
+    bottom: -10px;
+    
+}
+
+.mozilla-news-subscription{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 50px;
+    width: 85%;
+    /* z-index: -2; */
+    /* align-content: center; */
+}
+.mozilla-news-subscription p{
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    width: 80%;
+}
+.mozilla-news-subscription-text{
+    align-content: center;
+}
+    input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+
+  input[type=text]:hover, select:hover {
+    border: 2px solid #ccc;
+    border-color: #0250bb;
+  }
+  input[type=text]:focus, select:focus {
+    /* box-shadow: ; */
+    /* box-shadow: 0px 0px 5px 0 #0060df; */
+    border: 2px solid #0250bb,2px solid #0060df;
+    /* border-color: #0060df;
+    outline-color: #0250bb; */
+  }
+fieldset{
+    border: none;
+    /* width: 80%; */
+}
+input[type=submit] {
+    width: 100%;
+    padding: 5px 10px ;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    font-style: normal;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white;
+    color: black;
+  }
+  label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+.subscription-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 20px 0px;
+    /* position: relative; */
+}
+.button-link-black:link ,.button-link-black:visited 
+{
+    /* margin-top: 20px; */
+    /* margin: 20px 20px; */
+    padding: 5px 10px ;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    font-style: normal;
+    /* margin: 10px 0px; */
+}
+.button-link-black:hover
+{
+    background-color: white;
+    color: black;
+   
 }

@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
 </head>
-<body>
+<body class="position-relative">
     
-  <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 mb-5 bg-white rounded">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 mb-5 bg-white rounded position-sticky">
         <div class="container-xxl container">
           <a class="navbar-brand" href="#">
             <img src="https://www.mozilla.org/media/protocol/img/logos/mozilla/logo-word-hor.e20791bb4dd4.svg" alt="" width="100px">
@@ -252,11 +252,11 @@
       </div>
     </section>
 
-    <section>
+    <section class="my-5">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-lg-6">
-            <div class="flex-column justify-content-between">
+            <div class="d-flex flex-column   justify-content-around ">
               
                 <h2>
                   Join us in shaping trustworthy AI
@@ -271,8 +271,10 @@
                 </p>
 
 
-           
-                <a href="#" class="button-link-black">Read more</a>
+                <div>
+
+                  <a href="#" class="button-link-black">Read more</a>
+                </div>
             </div>
 
           </div>
@@ -285,6 +287,186 @@
         </div>
       </div>
     </section>
+
+
+    <section class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-6">
+            
+            <img src="https://www.mozilla.org/media/img/home/2023/mofo-split.e28f9f2631fc.png" width="100%" alt="">
+
+          </div>
+         
+          <div class="col-md-12 col-lg-6">
+            <div class="d-flex flex-column   justify-content-around ">
+              
+                <h2>
+                  So, what is Mozilla?
+                </h2>
+              
+  
+                <p>
+                  At its core, Mozilla is an activist organisation led by the Mozilla Foundation that makes change in the world through a variety of ventures including Mozilla Corporation, MZLA, Mozilla Ventures and Mozilla AI. How are we different? Because we’re mission-driven, it means we have the freedom to make all of our decisions based on what’s best for the internet and for everyone online, not based on the demands of shareholders — we don’t actually have any of those.
+                </p>
+
+
+                <div>
+                  <a href="#" class="button-link-black">Learn about the Mozilla Foundation</a>
+
+                </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="my-5" >
+      <div class="container rounded donation-banner ">
+       <div class="row">
+        <div class="col-md-12 col-lg-3 align-self-center text-center py-5">
+          <img src="https://www.mozilla.org/media/img/home/2023/mofo-heart.b635826c055a.svg" alt="">
+        </div>
+
+        <div class="col-md-12 col-lg-6 align-self-center text-left">
+          <p class="fs-5 fw-bold">BUILD OUR MOVEMENT</p>
+          <p>
+            Donate to Mozilla Foundation today to ensure the internet remains open and accessible to all.
+          </p>
+        </div>
+
+        <div class="col-md-12 col-lg-3 align-self-center text-center">
+          <a href="#" class="button-link-black">Donate</a>    
+        </div>
+       </div> 
+      
+      </div>
+    </section>
+
+    <section class="my-5">
+      <div class="container">
+        <div class="row">
+                   
+          <div class="col-md-12 col-lg-6">
+            <div class="d-flex flex-column   justify-content-around ">
+              
+                <h2>
+                  Join the fight for a healthy internet
+                </h2>
+              
+  
+                <p>
+                  Your voice. Your code. Your ideas. There are literally thousands of ways you can contribute to Mozilla.
+                </p>
+
+
+                <div>
+
+                  <a href="#" class="button-link-black">Volunteer with Mozilla</a>
+                </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-12 col-lg-6">
+            
+            <img src="https://www.mozilla.org/media/img/home/2023/contribute-split.202473fa9197.png" width="100%" alt="">
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <section id="section-6" class="my-5 pt-3 position-relative overflow-hidden" >
+      <div class="container d-flex flex-column align-items-center mx-lg-5 pb-3 dinosar-img-container">
+        <h3 class="fw-bold">
+          That one time we gave away our source code…
+        </h3>
+
+        <div class="mt-5">
+          <p>
+            The Mozilla project was founded in San Francisco in 1998, when the Netscape browser made the radical decision to give away its program code to the public to build on and improve. At that time, one company had a virtual monopoly on how people experienced the internet.
+          </p>
+          <p>
+            Eventually, the open-source Mozilla project morphed into the wildly popular first version of Firefox.
+          </p>
+          <p>
+            Today, Mozilla continues its movement toward a better internet with millions of active community members spanning the globe, advocating for ethical tech, trustworthy AI and producing privacy-first products that give more power to the people.
+          </p>
+
+        </div>
+        <a href="#" class="mb-5  button-link-black ">Learn more about Mozilla</a>
+        <img src="https://www.mozilla.org/media/img/home/2023/mozilla-dino.3affc2229c70.svg" alt="" class="position-absolute dinosar-img" width="75px">
+
+      </div>
+    </section>
+
+    <section id="section-7">
+      <div class="container">
+
+          <div class="mozilla-news-subscription">
+              <div class="mozilla-news-subscription-text">
+              <h2>
+                  Get (good) Mozilla news
+              </h2>
+              <p>
+                  Get news and tips from Mozilla to stay safe and informed on everything that makes the web a healthier place.
+              </p>
+          </div>
+          <div class="subscription-form">
+              <form action="">
+                  <fieldset>
+                      <label for="email">Your email address:</label><br />
+                  <input type="text" id="email" name="email" placeholder="yourname@example.com" required class="email-subscription"> <br />
+                  <label for="country">Select country or region:</label><br />
+                  <select name="country" id="country">
+                      <option value="India">India</option>
+                      <option value="United States">United States</option>
+                      <option value="United Kingdom">United Kingdom</option>
+                      <option value="Oman">Oman</option>
+                      <option value="Qatar">Qatar</option>
+                  </select><br/>
+                  <label for="lang">Select language:</label><br/>
+                  <select name="lang" id="lang">
+                      <option value="English">English</option>
+                      <option value="Hindi">Hindi</option>
+                      <option value="Malayalam">Malayalam</option>
+                  </select><br>
+                  <input type="checkbox" name="chk" id="chk" value="">
+                  <label for="chk">
+                      I’m okay with Mozilla handling my info as explained in 
+                      <a href="https://www.mozilla.org/en-GB/privacy/websites/">this Privacy Notice</a>
+                  </label><br>
+                  <input type="submit" value="Sign Up Now"  class="button-link-black">
+              
+                  <div>
+                      <p style="font-family: sans-serif; font-size: 12px;text-align: center; width: 100%;">
+                          We will only send you Mozilla-related information.
+                      </p>        </div>
+              </fieldset>
+          </form>
+
+          </div>
+          
+      </div>
+      </div>
+      </section>
+
+      </main>
+      <footer>
+          <div class="container">
+          <p>
+              Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation. <br />
+Portions of this content are ©1998–2024 by individual mozilla.org contributors. Content available under a Creative Commons licence.
+          </p>
+      </div>
+      </footer>
 
 
     <script src="bootstrap.min.js"></script>
